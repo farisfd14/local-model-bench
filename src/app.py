@@ -34,7 +34,7 @@ if len(ok):
 # --- leaderboard table ---
 st.subheader("Leaderboard")
 show = df.sort_values("score", ascending=False).copy()
-st.dataframe(show, use_container_width=True, hide_index=True)
+st.dataframe(show, width=True, hide_index=True)
 
 # --- charts: two different lenses on the same data ---
 col_a, col_b = st.columns(2)
@@ -47,7 +47,7 @@ with col_b:
 # --- failures, if any: a benchamrk that hides failures is lying ---
 if len(failed):
     st.subheader("Failed models (this is data too)")
-    st.dataframe(failed, use_container_width=True, hide_index=True)
+    st.dataframe(failed, width=True, hide_index=True)
 
 # --- the fine print: methodology honesty ---
 with st.expander("How scoring works (read before trusting this)"):
