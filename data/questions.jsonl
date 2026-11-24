@@ -1,0 +1,10 @@
+{"id": 1, "question": "What is the capital of France?", "keywords": ["Paris"]}
+{"id": 2, "question": "什么是卷积？用一句话解释。", "keywords": ["滤波", "卷积核", "滑"]}
+{"id": 3, "question": "What is 17 multiplied by 6?", "keywords": ["102"]}
+{"id": 4, "question": "Python中list和tuple的区别是什么？", "keywords": ["可变", "不可变"]}
+{"id": 5, "question": "Name the largest planet in our solar system.", "keywords": ["Jupiter", "木星"]}
+{"id": 6, "question": "1到100的和是多少？", "keywords": ["5050"]}
+{"id": 7, "question": "What does HTTP stand for?", "keywords": ["Hypertext", "Transfer", "Protocol"]}
+{"id": 8, "question": "梯度下降中，学习率过大会发生什么？", "keywords": ["发散", "震荡", "不收敛"]}
+{"id": 9, "question": "Which ocean is the largest?", "keywords": ["Pacific", "太平洋"]}
+{"id": 10, "question": "SQL中WHERE和HAVING的区别？", "keywords": ["行", "组", "聚合"]}
